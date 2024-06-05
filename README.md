@@ -13,7 +13,7 @@ This project demonstrates a simple Angular application that uses Firebase SDK fo
 Before you begin, ensure you have met the following requirements:
 
 - Node.js and npm installed
-- Angular CLI installed
+- Angular CLI installed and update
 - Firebase project set up
 
 ## Installation
