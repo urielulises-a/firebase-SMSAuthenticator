@@ -1,0 +1,23 @@
+<div class="">
+    <h1>Autenticación firebase</h1>
+    <p>Uriel Ulises Acosta Olvera</p>
+  
+    <div class="container">
+      <form id="contactus" [formGroup]="form" (ngSubmit)="onSubmit()">
+        <h3>Datos personales</h3>
+        <fieldset>
+          <input placeholder="Email" type="text" tabindex="1" name=correo  required
+            autofocus formControlName="email">
+        </fieldset>
+        <fieldset>
+          <input placeholder="Contraseña" type="password" tabindex="3" name="contrasenya" 
+            required formControlName="contrasenya">
+        </fieldset>
+        <fieldset>
+          <button  type="submit"  id="contactus-submit" data-submit="...Sending">Login</button>
+        </fieldset>
+        
+      </form>
+    </div>
+    
+  </div>
